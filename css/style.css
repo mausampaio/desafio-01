@@ -1,0 +1,52 @@
+body {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+}
+.image {
+    border-radius: 10px;
+    width: 100%;
+    border: 5px solid rgb(102, 100, 100);
+}
+.image-div {
+    width: 100%;
+    top: 20px;
+}
+.content {
+    background-color: white;
+    width: 585px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: .375rem .75rem;
+    position: relative;
+    top: 10px;
+    color: rgb(48, 47, 47);
+}
+h2 {
+    text-align: center;
+}
+.instagram-div {
+    font-size: 80px;
+    text-align: center;
+}
+.instagram {
+    color: rgb(95, 94, 94);
+    text-decoration: none;
+}
+.instagram:hover {
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+}
